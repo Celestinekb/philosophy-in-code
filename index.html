@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Philosophy in Code</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/index.css">
+  
+</head>
+<body class="text-gray-200 bg-gray-950">
+
+  <!-- Hero Image Fullscreen -->
+  <section id="hero" class="relative h-screen w-full overflow-hidden">
+    <img src="media/cover.png" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover object-center" id="coverImage" />
+    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/80 to-teal-400/20"></div>
+
+    <!-- Scroll Down Arrow -->
+    <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white text-center">
+      <div class="scroll-arrow text-3xl">↓</div>
+      <p class="text-sm text-gray-300 mt-1">Scroll Down</p>
+    </div>
+  </section>
+
+  <!-- Quote Section Fullscreen -->
+  <section class="h-screen w-full flex flex-col justify-center items-center text-center px-6 bg-gray-950 fade-in">
+    <blockquote class="text-2xl md:text-4xl italic text-teal-300 font-mono max-w-4xl drop-shadow-lg">
+      "The single most important skill for a computer scientist is problem solving. Problem solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately."
+    </blockquote>
+    <p class="mt-6 text-base md:text-lg text-gray-400">— Allen Downey</p>
+  </section>
+
+  <!-- Modules Section -->
+  <section id="modules" class="py-16 px-4 bg-gray-900 bg-opacity-90">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-teal-300 mb-8 text-center">Explore the Modules</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Module 0 -->
+        <a href="module0.html" class="block p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <h3 class="text-xl font-semibold text-teal-400">Module 0: Awakening the Problem-Solving Mindset</h3>
+          <p class="mt-2 text-gray-300">Initialize your curiosity and discover the philosophical roots of coding as a tool for questioning and creating.</p>
+        </a>
+        <!-- Module 1 -->
+        <a href="module1.html" class="block p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <h3 class="text-xl font-semibold text-teal-400">Module 1: Thales — The Primitive Data Type of Existence</h3>
+          <p class="mt-2 text-gray-300">Explore Thales’ method of simplifying complexity to find the core variable driving systems, from code to reality.</p>
+        </a>
+        <!-- Module 2 -->
+        <a href="module2.html" class="block p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <h3 class="text-xl font-semibold text-teal-400">Module 2: Anaximander — The Infinite Buffer of Possibility</h3>
+          <p class="mt-2 text-gray-300">Dive into the undefined space of Anaximander’s Apeiron, where ambiguity fuels innovation and scalable systems.</p>
+        </a>
+        <!-- Module 3 -->
+        <a href="module3.html" class="block p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <h3 class="text-xl font-semibold text-teal-400">Module 3: Heraclitus — You Are Not the Same System Twice</h3>
+          <p class="mt-2 text-gray-300">Embrace Heraclitus’ philosophy of flux, where change is the runtime environment of existence and identity.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<script src="script/index.js"></script>
+</body>
+</html>
